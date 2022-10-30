@@ -1,41 +1,79 @@
-Create a repository goit-markup-hw-07.
-Clone the created repository and copy the previous work files into it.
-Set up GitHub Pages and add a link to the live page in the header of the GitHub repository.
+<h1>goit-markup-hw-07</h1>
 
-Criteria for work acceptance by the tutor:
+<ul>
+  <li>Create a repository goit-markup-hw-07.</li>
+<li>Clone the created repository and copy the previous work files into it.</li>
+<li>Set up GitHub Pages and add a link to the live page in the header of the GitHub repository.</li>
+</ul>
 
-Project
+<h2>Criteria for work acceptance by the tutor:</h2>
 
-«A1» Refactoring of the project HTML-code is done using the BEM methodology.
+<h3>Project</h3>
+<p>
+  <strong>
+    <code>«A1»</code>
+  </strong> Refactoring of the project HTML-code is done using the BEM methodology.</p>
+<p>
+  <strong>
+    <code>«A2»</code>
+  </strong> Refactoring of the project CSS code is done using the SASS preprocessor.</p>
+<p>
+  <strong>
+    <code>«A3»</code>
+  </strong> In the root of the project, there is a sass folder, which contains all the preprocessor style sheets.</p>
+<p>
+  <strong>
+    <code>«A4»</code>
+  </strong> In the sass folder, there is a main.scss file, the main file into which all SASS fragments are imported (partials, _name.scss files).</p>
+<p>
+  <strong>
+    <code>«A5»</code>
+  </strong> Layout color palette and font sets are presented as variables in the variables.scss file in the sass/utils folder. CSS or SASS variables can be   used (optionally).</p>
 
-«A2» Refactoring of the project CSS code is done using the SASS preprocessor.
+<strong>
+  <code>«A6»</code>
+</strong> For each component, a separate fragment style sheet is created in the sass/components folder. For example, _page-header.scss, _logo.scss, etc.</p>
 
-«A3» In the root of the project, there is a sass folder, which contains all the preprocessor style sheets.
+<strong>
+  <code>«A7»</code>
+</strong> In the index.html and portfolio.html files, a minified style sheet, main.min.css from the css folder, is linked.</p>
 
-«A4» In the sass folder, there is a main.scss file, the main file into which all SASS fragments are imported (partials, _name.scss files).
+<h3>Markup</h3>
 
-«A5» Layout color palette and font sets are presented as variables in the variables.scss file in the sass/utils folder. CSS or SASS variables can be used (optionally).
+<strong>
+  <code>«B1»</code>
+</strong> Proper naming of box classes according to the BEM methodology.</p>
 
-«A6» For each component, a separate fragment style sheet is created in the sass/components folder. For example, _page-header.scss, _logo.scss, etc.
+<strong>
+  <code>«B2»</code>
+</strong> Proper naming of element classes according to the BEM methodology.</p>
 
-«A7» In the index.html and portfolio.html files, a minified style sheet, main.min.css from the css folder, is linked.
+<strong>
+  <code>«B3»</code>
+</strong> Proper naming of modifier classes according to BEM methodology.</p>
 
-Markup
+<strong>
+  <code>«B4»</code>
+</strong> Proper naming of mixin classes according to BEM methodology.</p>
 
-«B1» Proper naming of box classes according to the BEM methodology.
-
-«B2» Proper naming of element classes according to the BEM methodology.
-
-«B3» Proper naming of modifier classes according to BEM methodology.
-
-«B4» Proper naming of mixin classes according to BEM methodology.
-
-«B5» BEM class names are clear and descriptive, all in English.
+<strong>
+  <code>«B5»</code>
+</strong> BEM class names are clear and descriptive, all in English.</p>
 
 Styling
+<p>
+<strong>
+  <code>«C1»</code>
+</strong> Selector nesting is used.</p>
 
-«C1» Selector nesting is used.
+<strong>
+  <code>«C2»</code>
+</strong> Maximum selector nesting is 2 levels.</p>
 
-«C2» Maximum selector nesting is 2 levels.
+<strong>
+  <code>«C3»</code>
+</strong> The concatenation operator (&) is used to describe pseudo-classes and pseudo-elements.</p>
 
-«C3» The concatenation operator (&) is used to describe pseudo-classes and pseudo-elements.
+
+
+
