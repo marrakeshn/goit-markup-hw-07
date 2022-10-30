@@ -60,7 +60,7 @@
   <code>«B5»</code>
 </strong> BEM class names are clear and descriptive, all in English.</p>
 
-Styling
+<h3>Styling</h3>
 <p>
 <strong>
   <code>«C1»</code>
