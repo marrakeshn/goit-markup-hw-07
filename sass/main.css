@@ -5,13 +5,13 @@
 }
 
 :root {
-  --accent-color:#2196F3;
-  --primary-color:#212121;
-  --white-color:#fff;
+  --accent-color: #2196F3;
+  --primary-color: #212121;
+  --white-color: #fff;
   --dirty-white-color: #f5f4fa;
-  --secondary-color:#757575;
-  --btn-active:#188ce8;
-  --secondary-font:"Raleway", normal;
+  --secondary-color: #757575;
+  --btn-active: #188ce8;
+  --secondary-font: "Raleway", normal;
 }
 
 ul {
@@ -67,6 +67,7 @@ header .header__logo {
   line-height: 31px;
   font-family: var(--secondary-font);
 }
+
 header .header__logo span {
   color: #000;
 }
@@ -103,18 +104,22 @@ header .header__logo span {
   align-items: center;
   cursor: pointer;
 }
+
 .nav__item a {
   color: var(--primary-color);
   font-weight: 500;
   line-height: 1.14;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav__item:active a, .nav__item:focus-within a, .nav__item:hover a {
   color: var(--accent-color);
 }
+
 .nav__item a.current {
   color: var(--accent-color);
 }
+
 .nav__item a::after {
   width: 100%;
   content: "";
@@ -127,6 +132,7 @@ header .header__logo span {
   transform: scaleX(0);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav__item:active a::after, .nav__item:hover a::after, .nav__item a.current::after {
   transform: scaleX(1);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -136,13 +142,16 @@ header .header__logo span {
   color: var(--secondary-color);
   margin-right: 30px;
 }
+
 .header-contacts__item a {
   color: var(--secondary-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-contacts__item:focus-within a, .header-contacts__item:hover a {
   color: var(--accent-color);
 }
+
 .header-contacts__item:last-of-type {
   margin-right: 0;
 }
@@ -160,7 +169,7 @@ header .header__logo span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/orderoverlay.jpg) no-repeat center/cover;
+  background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/orderoverlay.jpg) no-repeat center/cover;
 }
 
 .hero__title {
@@ -190,6 +199,7 @@ header .header__logo span {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero__btn:focus, .hero__btn:hover {
   color: var(--white-color);
   background-color: var(--btn-active);
@@ -208,6 +218,7 @@ header .header__logo span {
 .features-list__item {
   margin-right: 30px;
 }
+
 .features-list__item:last-of-type {
   margin-right: 0;
 }
@@ -350,6 +361,7 @@ header .header__logo span {
 .team__social-link:focus, .team__social-link:hover {
   background-color: var(--accent-color);
 }
+
 .team__social-link:focus .team__social-icon, .team__social-link:hover .team__social-icon {
   fill: var(--white-color);
 }
@@ -388,14 +400,17 @@ header .header__logo span {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
+
 .clients__item-link:focus {
   background-color: var(--white-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
+
 .clients__item-link:focus .clients__item-icon {
   fill: var(--accent-color);
 }
+
 .clients__item-link:hover .clients__item-icon {
   fill: var(--accent-color);
 }
@@ -404,11 +419,13 @@ footer {
   background-color: #2f303a;
   padding: 60px 0;
 }
+
 footer .team__social-list {
   display: flex;
   gap: 10px;
   margin-top: 16px;
 }
+
 footer .team__social-link {
   width: 44px;
   height: 44px;
@@ -417,6 +434,7 @@ footer .team__social-link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
 footer .team__social-icon {
   fill: var(--white-color);
 }
@@ -456,6 +474,7 @@ footer .team__social-icon {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer-social__link:hover {
   background-color: var(--accent-color);
 }
@@ -474,6 +493,7 @@ footer .logo {
   margin-bottom: 20px;
   display: block;
 }
+
 footer .logo span {
   color: var(--white-color);
 }
@@ -525,12 +545,14 @@ footer .logo span {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
+
 .footer__subs-input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
 }
+
 .footer__subs-input::-moz-placeholder, .footer__subs-input:-ms-input-placeholder, .footer__subs-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -623,6 +645,7 @@ footer .logo span {
 .projects__filter-item {
   margin-right: 8px;
 }
+
 .projects__filter-item:last-of-type {
   margin-right: 0;
 }
@@ -715,11 +738,13 @@ footer .logo span {
   top: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
+
 .backdrop.is-hidden .modal {
   transform: scale(2);
 }
@@ -748,6 +773,7 @@ footer .logo span {
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
 .close-btn:focus, .close-btn:hover {
   fill: var(--accent-color);
 }
@@ -802,11 +828,13 @@ footer .logo span {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__field-input:focus, .modal__field-input:hover {
   outline: 0;
   border-color: var(--accent-color);
 }
-.modal__field-input:focus ~ .modal__input-icon, .modal__field-input:hover ~ .modal__input-icon {
+
+.modal__field-input:focus~.modal__input-icon, .modal__field-input:hover~.modal__input-icon {
   fill: var(--accent-color);
 }
 
@@ -821,6 +849,7 @@ textarea {
   letter-spacing: 0.01em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 textarea:focus, textarea:hover {
   outline: 0;
   border-color: var(--accent-color);
@@ -862,6 +891,7 @@ textarea:focus, textarea:hover {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__form-btn:focus, .modal__form-btn:hover {
   color: var(--white-color);
   background-color: var(--btn-active);
@@ -875,8 +905,8 @@ textarea:focus, textarea:hover {
   margin-bottom: 30px;
 }
 
-.field-checkbox:checked + .icon-checkbox {
-  background-image: url(/images/icon\ check.svg);
+.field-checkbox:checked+.icon-checkbox {
+  background-image: url(../images/icon\ check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--accent-color);
@@ -943,4 +973,6 @@ textarea:focus, textarea:hover {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
