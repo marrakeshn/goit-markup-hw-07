@@ -5,10 +5,11 @@
 <li>Clone the created repository and copy the previous work files into it.</li>
 <li>Set up GitHub Pages and add a link to the live page in the header of the GitHub repository.</li>
 </ul>
-
+<h2>File structure of project<h2>
+<img src="/images/07-preview.svg" alt="project structure" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:varcalc(1.25*1rem);max-width:800px" class="medium-zoom-image">
 <h2>Criteria for work acceptance by the tutor:</h2>
 
-<h3>Project</h3>
+<h2>Project</h2>
 <p>
   <strong>
     <code>«A1»</code>
@@ -38,7 +39,7 @@
   <code>«A7»</code>
 </strong> In the index.html and portfolio.html files, a minified style sheet, main.min.css from the css folder, is linked.</p>
 
-<h3>Markup</h3>
+<h2>Markup</h2>
 
 <strong>
   <code>«B1»</code>
@@ -60,7 +61,7 @@
   <code>«B5»</code>
 </strong> BEM class names are clear and descriptive, all in English.</p>
 
-<h3>Styling</h3>
+<h2>Styling</h2>
 <p>
 <strong>
   <code>«C1»</code>
@@ -73,7 +74,3 @@
 <strong>
   <code>«C3»</code>
 </strong> The concatenation operator (&) is used to describe pseudo-classes and pseudo-elements.</p>
-
-
-
-
