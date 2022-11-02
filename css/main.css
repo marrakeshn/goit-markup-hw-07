@@ -705,15 +705,15 @@ header {
   border-radius: 4px;
 }
 
-header .header__logo {
+header .logo {
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   font-family: "Raleway";
 }
-header .header__logo span {
-  color: #000;
+header .logo span {
+  color: #000000;
 }
 
 footer .logo {
