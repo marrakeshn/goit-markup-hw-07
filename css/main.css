@@ -418,12 +418,12 @@ footer {
   background-color: #2f303a;
   padding: 60px 0;
 }
-footer .team__social-list {
+footer .social-list {
   display: flex;
   gap: 10px;
   margin-top: 16px;
 }
-footer .team__social-link {
+footer .social-link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -431,7 +431,7 @@ footer .team__social-link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-footer .team__social-icon {
+footer .social-icon {
   fill: var(--white-color);
 }
 
@@ -453,14 +453,14 @@ footer .team__social-icon {
   margin-bottom: 20px;
 }
 
-.footer-social__list {
+footer .social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
 }
 
-.footer-social__link {
+footer .social-link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -470,11 +470,11 @@ footer .team__social-icon {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social__link:hover {
+footer .social-link:hover {
   background-color: var(--accent-color);
 }
 
-.footer-social__icon {
+footer .social-icon {
   fill: var(--white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1066,6 +1066,36 @@ textarea:focus, textarea:hover {
   padding: 94px 0;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  fill: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:focus, .social-link:hover {
+  background-color: var(--accent-color);
+}
+.social-link:focus .social-icon, .social-link:hover .social-icon {
+  fill: var(--white-color);
+}
+
 .team {
   background: var(--dirty-white-color);
   text-align: center;
@@ -1107,34 +1137,4 @@ textarea:focus, textarea:hover {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-color);
-}
-
-.team__social-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 16px;
-}
-
-.team__social-link {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--white-color);
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team__social-icon {
-  fill: #afb1b8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team__social-link:focus, .team__social-link:hover {
-  background-color: var(--accent-color);
-}
-.team__social-link:focus .team__social-icon, .team__social-link:hover .team__social-icon {
-  fill: var(--white-color);
 }/*# sourceMappingURL=main.css.map */
